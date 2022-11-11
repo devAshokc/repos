@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="crud.css">
+    <style>
+        .user_details {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            gap: 10px;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+
+    {
+        "createdAt": "2022-09-15T08:05:14.964Z",
+        "name": "Cecilia Zemlak",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/451.jpg",
+        "id": "1"
+      } -->
+    <div class="user_details">
+        <input id="name" class="get_user_name" type="text" placeholder="Username">
+        <input id="pic" class="get_user_pic" type="text" placeholder="Pic">
+        <button onclick="addUser()">Submit</button>
+    </div>
+    <!-- <h1 class="heading">Wellcome to fetch App</h1> -->
+    <section class="user_list">
+
+    </section>
+
+    <script src="crud.js">
+    </script>
+</body>
+
+</html>
